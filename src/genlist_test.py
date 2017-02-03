@@ -5,5 +5,5 @@ from generate_list import printIt
 cwd = os.getcwd()
 
 sys.path.append(cwd)
-
-printIt()
+for x in (0,1000):
+    printIt()
